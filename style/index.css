@@ -1,0 +1,292 @@
+/************ SITE MODELS ***********/
+
+#container-project-models {
+    border-top: 1px dashed black;
+    padding: 20px;
+    width: 95%;
+    height: fit-content;
+    margin: 60px auto 0;
+}
+
+#container-project-models h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#container-project-models .container-models {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+#container-project-models .container-models .model {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: fit-content;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+#container-project-models .container-models .model img {
+    width: 300px;
+    height: auto;
+}
+#container-project-models .container-models .model img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container-project-models .container-models .model .group-btn-models {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#container-project-models .container-models .model .group-btn-models .demo {
+    width: 120px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #3F84C3;
+    box-shadow: 0px 2px 15px rgba(51, 51, 51, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#container-project-models .container-models .model .group-btn-models .buy {
+    width: 120px;
+    height: 30px;
+    background: #D27C2C;
+    box-shadow: 0px 2px 15px rgba(51, 51, 51, 0.25);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1090px) {
+    #container-project-models .container-models .model {
+        margin-bottom: 30px;
+    }
+}
+
+
+/*************** DETAILS PRODUCT **************/
+
+#container-details-product {
+    border-top: 1px dashed black;
+    padding: 20px;
+    width: 95%;
+    height: fit-content;
+    margin: 60px auto 0;
+}
+
+#container-details-product h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#container-details-product .container-cards {
+    text-align: center;
+    margin: 40px 0;
+    display: flex;
+    ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto 0;
+}
+
+#container-details-product .container-cards .card-product {
+    text-align: center;
+    margin: 40px 0;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 180px;
+    margin: 20px auto 0;
+    border: 2px dashed black;
+}
+
+#container-details-product .container-cards .card-product:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 5px 31px 14px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 10px 13px -7px #000000, 2px 5px 31px 14px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+#container-details-product .container-cards .card-product img {
+    width: 40px;
+    height: 40px;
+}
+
+#container-details-product .container-cards .card-product .card-left,
+#container-details-product .container-cards .card-product .card-right {
+    margin-top: 20px;
+}
+
+#container-details-product .container-cards .card-product .card-left {
+    width: 20%;
+}
+
+#container-details-product .container-cards .card-product .card-right {
+    width: 80%;
+    text-align: start;
+}
+
+#container-details-product .container-cards .card-product h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#container-details-product .container-price {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#container-details-product .container-price .price {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#container-details-product .container-price .promo {
+    font-size: 1.3rem;
+    color: red;
+}
+
+
+
+/*********** TESTIMONIALS ************/
+
+
+#container-testimonials {
+    border-top: 1px dashed black;
+    padding: 20px;
+    width: 95%;
+    height: fit-content;
+    margin: 60px auto 0;
+}
+
+#container-testimonials h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#container-testimonials .container-img {
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+#container-testimonials .container-img img {
+    width: 100%;
+    height: 100%;
+}
+
+#container-testimonials .testimonial {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 20px;
+    height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    display: none;
+}
+
+#container-testimonials .testimonial img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 760px) {
+    #container-testimonials .container-img {
+        display: none;
+    }
+
+    #container-testimonials .testimonial {
+        display: block;
+    }
+}
+
+
+/******* CONTACT *******/
+
+.container-contact {
+    border-top: 1px dashed black;
+    padding: 20px;
+    width: 95%;
+    height: fit-content;
+    margin: 40px auto 60px;
+}
+
+.container-contact h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container-contact .list-contact-method {
+    display: flex;
+    ;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.container-contact .list-contact-method .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    min-height: 200px;
+    margin: 0 auto;
+    gap: 20px;
+    border: 1px dashed black;
+    padding: 10px;
+}
+
+.container-contact .list-contact-method .contact:hover {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 2px 5px 31px 14px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 10px 13px -7px #000000, 2px 5px 31px 14px rgba(0, 0, 0, 0.25);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.container-contact .list-contact-method .contact img {
+    width: 30px;
+    height: auto;
+}
+
+.container-contact .list-contact-method .contact .call {
+    width: 120px;
+    height: 30px;
+    background-color: #6C63FF;
+    box-shadow: 0px 2px 15px rgba(51, 51, 51, 0.25);
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 920px) {
+    .container-contact .list-contact-method .contact {
+        margin-bottom: 20px;
+    }
+}
